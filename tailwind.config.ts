@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -57,6 +58,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        node: {
+          package: "hsl(var(--node-package))",
+          procedure: "hsl(var(--node-procedure))",
+          function: "hsl(var(--node-function))",
+          table: "hsl(var(--node-table))",
+          view: "hsl(var(--node-view))",
+          trigger: "hsl(var(--node-trigger))",
+          file: "hsl(var(--node-file))",
+        },
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-card': 'var(--gradient-card)',
       },
       borderRadius: {
         lg: "var(--radius)",
